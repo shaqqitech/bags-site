@@ -8,6 +8,7 @@ import { FaArrowRight } from "react-icons/fa6";
 import { FaArrowUp } from "react-icons/fa6";
 import { FaArrowDown } from "react-icons/fa6";
 import { FaLocationPin } from "react-icons/fa6";
+import { bebas_neue } from "../fonts";
 
 const Main = () => {
   const [currentImage, setCurrentImage] = useState(Bag2);
@@ -36,9 +37,9 @@ const Main = () => {
       {/* Grid Div */}
       <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen lg:h-full gap-4">
         {/* Left Box */}
-        <div className="h-full rounded-3xl bg-[#b08968] py-16 px-10 flex flex-col justify-center items-start text-start">
-          <p>Tbm Fletcher</p>
-          <h1 className="text-5xl font-bold py-5">
+        <div className="h-full rounded-3xl bg-[#b08968] py-16 pl-10 pr-20 flex flex-col justify-center items-start text-start">
+          <p className={`${bebas_neue.className}`}>Tbm Fletcher</p>
+          <h1 className={`text-6xl md:text-7xl lg:text-8xl font-bold py-5 ${bebas_neue.className}`}>
             ELEGANT LEATHER MEN'S BACKPACKS
           </h1>
           <p>
