@@ -77,6 +77,7 @@ const Carousel = () => {
           >
             <div className={`w-60 h-60 bg-cover bg-center rounded-3xl p-5`}>
               <Image
+              alt="Bags"
                 src={item.img}
                 className="w-full h-full rounded-3xl bg-cover bg-no-repeat hover:scale-110 duration-150 transition-all ease-in-out"
               />
