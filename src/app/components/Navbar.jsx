@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-    <main className="w-full h-12 px-2 py-2 md:px-8">
+    <main className="w-full h-12 px-2 py-2 md:px-8 mb-3">
       <div className="w-full flex justify-between items-center">
         <div className="h-10 flex justify-center items-center space-x-8">
           <div className="hidden lg:block">

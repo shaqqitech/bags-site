@@ -8,7 +8,7 @@ import { FaArrowRight } from "react-icons/fa6";
 import { FaArrowUp } from "react-icons/fa6";
 import { FaArrowDown } from "react-icons/fa6";
 import { FaLocationPin } from "react-icons/fa6";
-import { bebas_neue } from "../fonts";
+import { bebas_neue, dancing_script } from "../fonts";
 
 const Main = () => {
   const [currentImage, setCurrentImage] = useState(Bag2);
@@ -38,7 +38,7 @@ const Main = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen lg:h-full gap-4">
         {/* Left Box */}
         <div className="h-full rounded-3xl bg-[#b08968] py-16 pl-10 pr-20 flex flex-col justify-center items-start text-start">
-          <p className={`${bebas_neue.className}`}>Tbm Fletcher</p>
+          <p className={`${dancing_script.className} text-5xl`}>Tbm Fletcher</p>
           <h1 className={`text-6xl md:text-7xl lg:text-8xl font-bold py-5 ${bebas_neue.className}`}>
             ELEGANT LEATHER MEN'S BACKPACKS
           </h1>
@@ -48,7 +48,7 @@ const Main = () => {
             exercitationem ducimus enim mollitia commodi libero esse, voluptate
             cupiditate.
           </p>
-          <p className="w-36 h-10 text-sm font-semibold rounded-full grid place-content-center bg-red-950 my-8">
+          <p className="w-36 h-10 text-sm font-semibold rounded-full grid place-content-center bg-red-950 hover:bg-red-800 my-8">
             Explore More
           </p>
           <div className="flex justify-center items-cente mt-16">
